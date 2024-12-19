@@ -1,0 +1,82 @@
+body{
+    background-image: url('./IMG_4932.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    background-blend-mode: darken;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+#postcard {
+    width: 30px;
+    position: absolute;
+}
+
+.postcard-background {
+    width: 200px;
+    border-radius: 30px;
+    border-width: 10px;
+    border-style: solid;
+    border-color:aliceblue
+}
+
+#msg-containor {
+    position: absolute;
+    width: 100%;
+    top: 5%;
+}
+
+p{
+    color:rgb(7, 32, 54);
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    font-family: 'Pretendard-Regular';
+}
+
+.p-message {
+ width: 50%;
+}
+
+.p-name {
+    /*font-size: 20px;*/
+    font-size: 20px;
+    text-align: end;
+    padding-right: 10px;
+}
+
+
+#btn-containor {
+    width: 300px;
+    margin-top: 200px;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    color: rgb(0, 0, 0);
+    background-color:rgb(242, 230, 215);
+    width: 27%;
+    padding: 5%;
+    margin: 5px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
